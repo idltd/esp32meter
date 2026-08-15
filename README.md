@@ -6,6 +6,10 @@ Designed as a cheap, hands-on introduction to electronics: buy a handful of resi
 
 ---
 
+> **⚠️ Status: untested hardware.** The breadboard circuit and firmware are a design that has not yet been built or verified on real hardware. Treat the schematic and GPIO assignments as a starting point, not a proven reference — double-check voltages and resistor values before trusting a measurement. Contributions and build reports welcome.
+
+---
+
 ## What it measures
 
 | Function | Range |
