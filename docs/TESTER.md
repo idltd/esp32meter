@@ -275,10 +275,6 @@ To improve voltage measurement accuracy: measure your actual 180 kΩ and 20 kΩ 
 
 ## What's Next
 
-### Coding stream
-
-Write your own Arduino sketches for the ESP32-C3. Suggested progression: digital output (LED blink), digital input (button), PWM (LED dimmer), analogue read (potentiometer), combining inputs and outputs. The same breadboard and components apply.
-
 ### Hardware stream
 
 Solder the meter circuit onto stripboard with an IC socket for the ESP32. This makes a permanent, portable instrument. The soldering guide covers stripboard layout, socket placement, joint technique, and testing.

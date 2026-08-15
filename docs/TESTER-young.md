@@ -283,15 +283,7 @@ None of these are tricks or simplifications. This is how it actually works.
 
 You've built a working instrument. You understand — at least roughly — what each component does and why it's there. That puts you ahead of most people who use electronics every day.
 
-From here the path splits:
-
----
-
-**→ The coding stream**
-
-If you want to write your own programs for the ESP32, start with the coding exercises. You'll write individual sketches that control a single thing at a time: blink an LED, read a button, fade a light, read an analogue sensor. Each one short, understandable, and directly useful.
-
-You'll use the same breadboard and components you've been using. Some of the things you've already measured, you'll now control.
+From here:
 
 ---
 
@@ -303,4 +295,4 @@ Soldering takes practice. The first joints aren't always pretty. But after a few
 
 ---
 
-Both paths lead somewhere real. The meter will be useful on both of them.
+The meter will be useful wherever you take it next.
