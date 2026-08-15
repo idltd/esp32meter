@@ -22,6 +22,10 @@ Designed as a cheap, hands-on introduction to electronics: buy a handful of resi
 
 Does **not** measure: AC voltage, current, inductance, or anything above 33 V DC.
 
+<img src="docs/esp32-multimeter-interface.png" alt="ESP32 Meter web interface" width="360">
+
+*The web interface, rendered with sample readings (hardware not yet verified — see status note above).*
+
 ---
 
 ## Hardware
@@ -55,7 +59,11 @@ All available from AliExpress, Amazon, or any electronics supplier.
 | 5 | Drive 10 kΩ reference |
 | 6 | Capacitor charge |
 
-See `docs/esp32-multimeter-brief.md` for full circuit diagrams and breadboard layout.
+**Breadboard layout:**
+
+<img src="docs/esp32-multimeter-breadboard.png" alt="ESP32 Meter breadboard layout" width="600">
+
+See `docs/esp32-multimeter-brief.md` for full circuit diagrams and component-level detail.
 
 ---
 
@@ -96,8 +104,9 @@ firmware/
   build/              compiled binaries (gitignored)
 
 docs/
-  esp32-multimeter-brief.md     full circuit design and firmware spec
-  esp32-multimeter-breadboard.png
+  esp32-multimeter-brief.md         full circuit design and firmware spec
+  esp32-multimeter-breadboard.png   breadboard wiring layout
+  esp32-multimeter-interface.png    web interface preview
 
 build.bat             compile + flash script
 ```
