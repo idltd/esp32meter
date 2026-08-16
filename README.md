@@ -117,4 +117,5 @@ build.bat             compile + flash script
 
 | Version | Notes |
 |---------|-------|
+| 1.0.1 | Docs cleanup — untested-hardware status note, README images (breadboard + interface preview), removed unrelated coding/ sketches |
 | 1.0.0 | Initial release — voltage, resistance, continuity, diode, capacitance |
